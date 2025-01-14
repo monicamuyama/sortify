@@ -1,4 +1,3 @@
-```markdown
 # Sortify  
 **Empowering Waste Management Through Smart Bins**  
 
