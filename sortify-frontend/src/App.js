@@ -1,18 +1,25 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Header from './pages/header'
+import Footer from './pages/footer';
 import Signin from './pages/signin';
 import Signup from './pages/signup';
-import Landing from './pages/landing'
+import Home from './pages/home'
 
 function App() {
   return (
-    <Router>  {/* Wrap Routes with Router */}
+    <Router>
+      <Header/>  
+      {/* Wrap Routes with Router */}
       <Routes>
-        <Route path="/" element={<Landing />} /> {/* Default route rendering Landing component */}
+        <Route path="/" element={<Home />} /> {/* Default route rendering Landing component */}
         <Route path="/signin" element={<Signin />} />
         <Route path="/signup" element={<Signup />} />
         <Route path="/about" element={<Signin />} />
       </Routes>
+      <Footer/>
     </Router>
   );
 }

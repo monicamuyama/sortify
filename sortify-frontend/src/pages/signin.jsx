@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/signin.css';
-import Footer from './footer';
 
 const Signin = () => {
   return (
@@ -22,7 +21,6 @@ const Signin = () => {
       </div>
 
     </div>
-    <Footer/>
 
     </div>
   );
