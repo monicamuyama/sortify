@@ -9,23 +9,23 @@
   
   /* Hero Section */
   .hero {
-    color: white;
-    padding: 50px 20px;
+    color: rgb(8, 8, 8);
+    padding: 30px 15px;
   }
   
   .hero h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     margin: 0;
   }
   
   .hero h2 {
     font-size: 2rem;
-    margin: 10px 0;
+    margin: 20px 0;
   }
   
   .hero p {
     font-size: 1.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
   
   .cta-buttons .cta-button {
@@ -48,21 +48,24 @@
   /* Sliding Info Section */
   .info-slider {
     padding: 40px 20px;
-    margin-top: 20px;
+    margin-top: 5px;
     overflow: hidden;
   }
   
   .slider {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     gap: 20px;
-    animation: slide 10s infinite linear;
+    animation: slide 15s infinite linear;
   }
   
   .slide {
     min-width: 100%;
     text-align: center;
     padding: 20px;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #e0eaf6;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
@@ -73,8 +76,8 @@
   }
   
   .slide p {
-    color: #555;
-    font-size: 1rem;
+    color: #0c0c0c;
+    font-size: 1.5rem;
   }
   
   /* Animation */

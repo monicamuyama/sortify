@@ -10,9 +10,9 @@ const Footer = () => {
           <div className="footer-section">
             <h4>Services</h4>
             <ul>
-              <li><a href="#tutoring">Tutoring</a></li>
-              <li><a href="#resources">Learning Resources</a></li>
-              <li><a href="#workshops">Workshops</a></li>
+              <li><a href="#Recycling">Recycling</a></li>
+              <li><a href="#Timely gabbage pickups">Timely waste pickups</a></li>
+              <li><a href="#Smart bins">Smart Bins</a></li>
             </ul>
           </div>
           <div className="footer-section">
@@ -31,8 +31,7 @@ const Footer = () => {
               <li><a href="#faq">FAQs</a></li>
             </ul>
           </div>
-        </div>
-        <div className="social-links">
+          <div className="footer-section">
           <h4>Follow Us</h4>
           <ul>
             <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a></li>
@@ -40,8 +39,9 @@ const Footer = () => {
             <li><a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           </ul>
         </div>
+        </div>
         <p>&copy; {new Date().getFullYear()} Sortify. All rights reserved.</p>
-        <p>Contact us: info@sortify.com</p>
+        <p>Contact us: sortify236@gmail.com</p>
       </div>
     </footer>
   );
