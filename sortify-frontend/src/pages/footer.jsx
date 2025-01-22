@@ -12,7 +12,8 @@ const Footer = () => {
             <ul>
               <li><a href="#Recycling">Recycling</a></li>
               <li><a href="#Timely gabbage pickups">Timely waste pickups</a></li>
-              <li><a href="#Smart bins">Smart Bins</a></li>
+              <li><a href="#Smart bins">Smart Bins
+                </a></li>
             </ul>
           </div>
           <div className="footer-section">
